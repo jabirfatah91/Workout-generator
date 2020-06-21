@@ -1,0 +1,32 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-workoutgenerator-dev-124442-authRole",
+            "UnauthRoleArn": "arn:aws:iam::240496714246:role/amplify-workoutgenerator-dev-124442-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::240496714246:role/amplify-workoutgenerator-dev-124442-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-workoutgenerator-dev-124442-deployment",
+            "UnauthRoleName": "amplify-workoutgenerator-dev-124442-unauthRole",
+            "StackName": "amplify-workoutgenerator-dev-124442",
+            "StackId": "arn:aws:cloudformation:us-east-1:240496714246:stack/amplify-workoutgenerator-dev-124442/0db138e0-b2e3-11ea-9f42-0ab389d40b93",
+            "AmplifyAppId": "d36dmqlzov5qm7"
+        }
+    },
+    "hosting": {
+        "S3AndCloudFront": {
+            "service": "S3AndCloudFront",
+            "providerPlugin": "awscloudformation",
+            "output": {
+                "S3BucketSecureURL": "https://workoutgenerator-dev.s3.amazonaws.com",
+                "WebsiteURL": "http://workoutgenerator-dev.s3-website-us-east-1.amazonaws.com",
+                "Region": "us-east-1",
+                "HostingBucketName": "workoutgenerator-dev"
+            },
+            "lastPushTimeStamp": "2020-06-20T21:28:31.137Z",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-workoutgenerator-dev-124442-deployment/amplify-cfn-templates/hosting/template.json",
+                "logicalId": "hostingS3AndCloudFront"
+            }
+        }
+    }
+}
