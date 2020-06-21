@@ -1,0 +1,23 @@
+.Landing-page-home {
+  background-image: url("./images/background5.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.Landing-page-about {
+  background-image: url("./images/background-about.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.Landing-page-generator {
+  height: 100vh;
+  background-size: cover;
+}
+.button {
+  display: inline-block;
+  margin: 3px;
+  background-color: #4caf50;
+}
+.footer-text{
+  color: #4caf50;
+
+}
